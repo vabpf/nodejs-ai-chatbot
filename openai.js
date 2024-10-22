@@ -1,6 +1,6 @@
 class OpenAIAPI {
     static async generateResponse(userMessage, conversationHistory = []) {
-        const apiKey = 'yourkey';
+        const apiKey = '';
         const endpoint = 'https://api.openai.com/v1/chat/completions';
         const response = await fetch(endpoint, {
             method: 'POST',
